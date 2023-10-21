@@ -30,11 +30,11 @@ def get_filters():
         else:
             print("Sorry, City Not Found. Please Retype.")
 
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # prompt user to input month (all, january, february, ... , june)
     month_name = ''
     while month_name.lower() not in MONTH_DATA:
         month_name = input(
-            "Which month would you like to Analyze? January, February, March, April, May, June or type 'all' ")
+            "Please choose a suitable month to dig deep? January, February, March, April, May, June or type 'all' ")
         if month_name.lower() in MONTH_DATA:
             month = month_name.lower()
         else:
