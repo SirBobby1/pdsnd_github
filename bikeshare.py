@@ -22,7 +22,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
 
-    # Get user input for city (chicago, new york city, washington).
+    # Let user input city (chicago, new york city, washington).
     city_name = ''
     while city_name.lower() not in CITY_DATA:
         city_name = input("Which city do you want to analyze: Chicago, New York City or Washington? ")
