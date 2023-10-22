@@ -1,2 +1,8 @@
 .github/**
+<<<<<<< HEAD
 *.txt
+||||||| 676b111
+bikeshare.py
+=======
+*.csv
+>>>>>>> bea8c8d93b87220aa0f107035f99a3751233aefc
